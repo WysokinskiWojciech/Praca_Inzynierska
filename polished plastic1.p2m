@@ -1,0 +1,23 @@
+shader "top_name" "top_mtl" (
+	"num_cols" 1,
+	"illum" "model_3.p2a" 
+)
+
+material "iii" "swt_main_phen" (
+"ambience"		0.6 0.6 0.6,
+"ambient_factor"	0.6,
+"diffuse_factor"	0.35,
+"specular_color"	1.0 1.0 1.0, 
+"specular_factor"	0.5,
+"exponent"		100.0,
+"transparency"    	0.0,
+"reflectivity"		0.0,
+"mtl_ior"		1.0,
+"col1"			0.63 0.66 0.68
+"sw_shader"             polishedplastic1
+)
+end material
+
+
+
+
